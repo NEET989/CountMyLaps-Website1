@@ -1,0 +1,149 @@
+html,body {
+  margin:0
+}
+
+h1,h2,a {
+  font-family:'Oswald',sans-serif;
+  text-transform:uppercase
+}
+
+p {
+  font-family:Helvetica,Arial,sans-serif
+}
+
+.container {
+  width:940px;
+  margin:0 auto
+}
+
+/* Main */
+.main {
+  text-align:center;
+  background:url(http://i2.wp.com/gifs.gifbin.com/092009/1253612165_cat_running_around.gif?resize=245%2C175) no-repeat center center;
+  background-size:cover;
+  height:1000px
+}
+
+.main .container {
+  position:relative;
+  top:100px
+}
+
+.main h1 {
+  color:#fff;
+  margin:0;
+  font-size:200px
+}
+
+.main p {
+  color:#fff;
+  margin:0 0 20px;
+  font-size:18px
+}
+
+.main .btn {
+  background-color:#1c1c1c;
+  color:#fff;
+  font-size:18px;
+  padding:8px 30px;
+  text-decoration:none;
+  display:inline-block
+}
+
+/* Supporting */
+.supporting {
+  background-color:#1c1c1c;
+  text-align:center;
+  padding:50px 0 80px
+}
+
+.supporting .col {
+  float:left;
+  width:30%;
+  padding:10px
+}
+
+.supporting h2 {
+  color:#ffa800;
+  font-size:40px;
+  margin-bottom:10px
+}
+
+.clearfix {
+  clear:both
+}
+
+.supporting p {
+  color:#efefef;
+  margin-bottom:20px;
+  line-height:20px
+}
+
+.supporting .btn {
+  background-color:#eee;
+  color:#1c1c1c;
+  font-size:18px;
+  padding:8px 30px;
+  text-decoration:none;
+  display:inline-block
+}
+
+/* Feature */
+.feature {
+  background:url(http://livehealthy.chron.com/DM-Resize/photos.demandstudios.com/getty/article/129/170/77293911.jpg?w=650&h=406&keep_ratio=1&webp=1) no-repeat center center;
+  background-size:cover;
+  height:1000px;
+  text-align:center;
+}
+
+.feature .container {
+  position:relative;
+  top:200px
+}
+
+.feature h2 {
+  color:#ffa800;
+  font-size:60px;
+  margin:0;
+  padding:50px 0 0
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  background-size:cover;
+  height:600px;
+  text-align:center
+}
+
+.footer .container {
+  position:relative;
+  top:200px
+}
+
+.footer h2 {
+  color:#fff;
+  font-size:40px;
+  margin:0 0 20px;
+  padding:50px 0 0
+}
+
+.footer p {
+  color:#fff;
+  margin:0 0 20px;
+  font-size:18px
+}
+
+.footer .btn {
+  background-color:#1c1c1c;
+  color:#fff;
+  font-size:18px;
+  padding:8px 30px;
+  text-decoration:none;
+  display:inline-block
+}
+
+a.btn:hover {
+  background:#ffa800;
+  color:#000
+}
