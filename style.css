@@ -50,17 +50,20 @@ p {
   display:inline-block
 }
 
-/* Supporting */
+/*   */
 .supporting {
   background-color:#1c1c1c;
   text-align:center;
   padding:50px 0 80px
+
 }
 
 .supporting .col {
+  background-color:#1c1c1c;
   float:left;
   width:30%;
   padding:10px
+  text-color: black
 }
 
 .supporting h2 {
@@ -94,11 +97,12 @@ p {
   background-size:cover;
   height:1000px;
   text-align:center;
+
 }
 
 .feature .container {
   position:relative;
-  top:200px
+  top:200px;
 }
 
 .feature h2 {
@@ -146,4 +150,16 @@ p {
 a.btn:hover {
   background:#ffa800;
   color:#000
+}
+.special .container {
+  padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+  background-color: #98FB98;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display:fullscreen
 }
