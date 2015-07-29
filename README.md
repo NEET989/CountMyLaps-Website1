@@ -9,3 +9,5 @@ The initial design for the webpage is complete! The register.html page is curren
 It's best to stay away from the register.html file. It doesn't do anything
 
 Right now, nothing really works. Just the design of the index.html page is about done.
+
+CHANGES:
